@@ -5,7 +5,7 @@ void qsort(int a[],int first,int last)
   {
    int i=first+1,j=last,temp ;
   int pivot=first;
-   while(i<j)
+   while(i<=j)
     {
        while(a[i]<a[pivot])
        i++;
